@@ -1,0 +1,26 @@
+# The cartridges: copyrighted, not distributed. Supply your own legally owned dumps.
+*.a78
+*.bin
+roms/
+
+# Generated listings: the games' machine code in readable form, rebuilt from
+# annotations.json and your own ROM with the a7800-toolkit (see README.md).
+src/
+*.asm
+code_*.txt
+disasm_report.txt
+
+# Captures, dumps, renders, traces and logs derived from the cartridges.
+runs/
+work/
+survey/
+bankpics/
+gfx/
+*.png
+*.wav
+*.trk
+*.log
+*.out
+*.txt
+
+__pycache__/
